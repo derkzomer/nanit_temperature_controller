@@ -12,7 +12,7 @@ class heater_controller(object):
 
 		print delta
 
-		if delta > 5:
+		if delta > 3500:
 			self.turn_off_heater()
 		
 	def turn_off_heater(self):
