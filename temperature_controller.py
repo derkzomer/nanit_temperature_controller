@@ -50,7 +50,7 @@ class temperature_controller(object):
 
 		url = "https://maker.ifttt.com/trigger/heater_on/with/key/dhUFZpVlHvfxzrOT332XlV"
 		
-		if temperature < 30:
+		if temperature < 19:
 
 			d = datetime.datetime.utcfromtimestamp(3600 * ((self.ts + 1800) // 3600))
 			
